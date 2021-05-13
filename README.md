@@ -20,7 +20,7 @@ All industries around the globe are adopting Machine Learning, So I decided to w
 
 ### Technical Aspect
 
-The machine learning models tested in this dataset are gicen below with their metrics.
+The machine learning models tested in this dataset are given below with their metrics.
 
  #|                                  Model  | Accuracy |   Recall | Precision | F1 score
 --|-----------------------------------------|----------|----------|-----------|----------  
