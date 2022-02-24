@@ -14,10 +14,6 @@
 
 A RandomForestClassifier model to predict the likelihood of e-Signing a loan based on financial data. This project explores one of the best use-cases in the finance industry. Dataset was tried on different algorithms like LogisticRegression, Support Vector Machine Classifier, and RandomForestClassifier. RandomForestClassifier performs well in this dataset and got an accuracy score of 63.42%.
 
-### Motivation
-
-All industries around the globe are adopting Machine Learning, So I decided to work on a finance sector project. Also, I found this project helps to explore more machine learning techniques to get better prediction.
-
 ### Technical Aspect
 
 The machine learning models tested in this dataset are given below with their metrics.
