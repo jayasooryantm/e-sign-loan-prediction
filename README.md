@@ -1,20 +1,35 @@
-# e-sign-loan-prediction
 
-### Table of Contents
-
-* Overview
-* Motivation
-* Technical Aspect
-* Requirements
-* Run
-* Technologies Used
-* Credits
-
-### Overview
+# e-Sign Loan Prediction
 
 A RandomForestClassifier model to predict the likelihood of e-Signing a loan based on financial data. This project explores one of the best use-cases in the finance industry. Dataset was tried on different algorithms like LogisticRegression, Support Vector Machine Classifier, and RandomForestClassifier. RandomForestClassifier performs well in this dataset and got an accuracy score of 63.42%.
+## Authors
 
-### Technical Aspect
+- [@jayasooryantm](https://www.github.com/jayasooryantm)
+
+
+## Tech Stack
+
+**Language & Framework:** Python, Sklearn, TailwindCSS
+
+**Editor:** Jupyter Notebook, Spyder
+
+
+## Usage/Examples
+
+* Python (>=3.7) should be installed on your computer.
+* Jupyter notebook or any other code editor should be required to open the code.
+* You should install the necessary libraries from the requirement.txt file
+
+Load the pickle model using the below code: (x_value and y_value should be replaced with proper data values)
+
+```python
+import pickle
+model = pickle.load('.pkl','rb')
+model.predict(x_value,y_value)
+```
+
+
+## Performance
 
 The machine learning models tested in this dataset are given below with their metrics.
 
@@ -27,29 +42,6 @@ The machine learning models tested in this dataset are given below with their me
 4 | RandomForestClassifier (Best Estimator) | 0.634283 | 0.708506 |  0.646168 | 0.675903 
 
 
-### Requirement
+## Acknowledgements
 
-* Python (>=3.7) should be installed on your computer.
-* Jupyter notebook or any other code editor should be required to open the code.
-* You should install the necessary libraries from the requirement.txt file
-
-### Run
-
-* Load the pickle model using the below code: (x_value and y_value should be replaced with proper data values)
-  
-```
-import pickle
-model = pickle.load('.pkl','rb')
-model.predict(x_value,y_value)
-```
-
-### Technologies Used
-
-* Python
-* Spyder (Code Editor)
-* Sklearn
-
-### Credits
-
-* Mentor - SuperDataScience Team
-* Dataset - https://www.superdatascience.com/
+ - [Super Data Science](https://www.superdatascience.com/)
